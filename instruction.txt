@@ -1,0 +1,22 @@
+1. COPY AND PASTE THE SQL BELOW:
+
+CREATE TABLE `users123` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `username` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE LoggingLab9(
+	IPaddress varchar(30),
+	DateAndTime datetime,
+	AttemptedUserId varchar(30),
+	LoginSuccess varchar(30),
+	HttpHost varchar(60),
+	HttpUserAgent varchar(250)
+);
+
+
+
+
+2. Set the permission of IUSR of the folder named 'logFiles' as shown in the instruction in cgt356 website.
